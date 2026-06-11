@@ -1,0 +1,29 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="AgroDT Security Flow">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="csv" value="CSV Soil Data&#xa;SensorId, Timestamp, SequenceNumber, SoilMoisture, SoilTemperature, SoilPH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="40" y="160" width="210" height="90" as="geometry"/></mxCell>
+        <mxCell id="pub" value="Publisher&#xa;Builds UADP-style message&#xa;Modes: None / Sign / SignAndEncrypt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="300" y="150" width="220" height="110" as="geometry"/></mxCell>
+        <mxCell id="sks" value="SKS Prototype&#xa;Key generation&#xa;Key distribution&#xa;Key rotation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="300" y="20" width="220" height="90" as="geometry"/></mxCell>
+        <mxCell id="broker" value="MQTT Broker&#xa;Transport only&#xa;No end-to-end trust" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="580" y="160" width="190" height="90" as="geometry"/></mxCell>
+        <mxCell id="auth" value="Authorized Subscriber&#xa;Verify signature / decrypt&#xa;Replay check" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="840" y="80" width="210" height="100" as="geometry"/></mxCell>
+        <mxCell id="unauth" value="Unauthorized Subscriber&#xa;No valid keys&#xa;Cannot decrypt protected payload" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="840" y="240" width="210" height="100" as="geometry"/></mxCell>
+        <mxCell id="dt" value="Simplified Digital Twin State&#xa;Updated only after valid message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="1080" y="80" width="210" height="100" as="geometry"/></mxCell>
+        <mxCell id="attacks" value="Attack Tests&#xa;Tamper payload&#xa;Unauthorized publisher&#xa;Replay old message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="560" y="330" width="230" height="110" as="geometry"/></mxCell>
+        <mxCell id="outputs" value="Evidence Outputs&#xa;PCAP captures&#xa;Structured logs&#xa;Benchmark CSV&#xa;Technical report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="1080" y="250" width="210" height="130" as="geometry"/></mxCell>
+        <mxCell id="e1" style="endArrow=block;html=1;" edge="1" parent="1" source="csv" target="pub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;" edge="1" parent="1" source="pub" target="broker"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;" edge="1" parent="1" source="broker" target="auth"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="endArrow=block;html=1;" edge="1" parent="1" source="broker" target="unauth"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="endArrow=block;html=1;" edge="1" parent="1" source="auth" target="dt"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="endArrow=block;html=1;dashed=1;" edge="1" parent="1" source="sks" target="pub"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" style="endArrow=block;html=1;dashed=1;" edge="1" parent="1" source="sks" target="auth"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="endArrow=block;html=1;" edge="1" parent="1" source="attacks" target="broker"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="endArrow=block;html=1;dashed=1;" edge="1" parent="1" source="auth" target="outputs"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="endArrow=block;html=1;dashed=1;" edge="1" parent="1" source="broker" target="outputs"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

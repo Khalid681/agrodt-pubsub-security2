@@ -1,0 +1,13 @@
+pubsub-env/
+__pycache__/
+*.pyc
+
+logs/*
+results/*
+captures/*
+keys/security_keys.json
+
+*.pcap
+*.pcapng
+
+.DS_Store
