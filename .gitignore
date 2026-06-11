@@ -3,6 +3,25 @@ __pycache__/
 *.pyc
 
 logs/*
+!logs/.gitkeep
+
+results/*
+!results/.gitkeep
+
+captures/*
+!captures/.gitkeep
+
+keys/*
+!keys/.gitkeep
+
+*.pcap
+*.pcapng
+
+.DS_Storepubsub-env/
+__pycache__/
+*.pyc
+
+logs/*
 results/*
 captures/*
 keys/security_keys.json
