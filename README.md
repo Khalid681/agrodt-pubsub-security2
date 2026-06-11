@@ -273,13 +273,3 @@ Even with encrypted payload, these remain visible:
 - Publisher ID
 - Security group ID
 
-## Deliverables
-
-- Source code: `scripts/`
-- Execution instructions: `README.md`
-- Architecture diagram: `docs/architecture.drawio`
-- Traffic captures: `captures/*.pcap`
-- Structured logs: `logs/*.jsonl`
-- Raw benchmark data: `results/subscriber_metrics.csv`
-- Benchmark summary: `results/benchmark_summary.csv`
-- Technical report: `docs/technical_report.md`
