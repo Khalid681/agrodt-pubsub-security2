@@ -1,4 +1,4 @@
-# AgroDT OPC UA PubSub-style UADP over MQTT Security PoC
+# AgroDT OPC UA PubSub-style UADP over MQTT Security
 
 This project implements a clean Phase-1 proof of concept for end-to-end payload protection of agricultural sensor data.
 
