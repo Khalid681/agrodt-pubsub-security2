@@ -36,7 +36,6 @@ The project also includes:
 
 ```bash
 cd "/mnt/c/Users/khalid usman/OneDrive/Desktop"
-unzip agrodt_pubsub_security_clean.zip
 cd agrodt_pubsub_security_clean
 
 sudo apt update
@@ -71,7 +70,7 @@ python3 scripts/sks.py --show
 Terminal 2:
 
 ```bash
-python3 scripts/authorized_subscriber.py --mode none --max 5
+python3 scripts/authorized_subscriber.py --mode none
 ```
 
 Terminal 3:
@@ -88,7 +87,7 @@ Expected: messages accepted, payload visible, no integrity protection.
 Terminal 2:
 
 ```bash
-python3 scripts/authorized_subscriber.py --mode sign --max 5
+python3 scripts/authorized_subscriber.py --mode sign 
 ```
 
 Terminal 3:
@@ -104,7 +103,7 @@ Expected: messages accepted, payload visible, signature verified.
 Terminal 2:
 
 ```bash
-python3 scripts/authorized_subscriber.py --mode signandencrypt --max 5
+python3 scripts/authorized_subscriber.py --mode signandencrypt 
 ```
 
 Terminal 3:
