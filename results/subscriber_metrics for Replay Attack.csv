@@ -1,0 +1,4 @@
+EventTime,Mode,SensorId,SequenceNumber,Status,Reason,LatencyMs,MessageSizeBytes,CPUPercent,MemoryMB,KeyId
+2026-06-22T17:06:33.640366+00:00,signandencrypt,SoilSensor_001,1,ACCEPTED,dt_state_updated,5.266,804,0.0,29.848,key-v17-e8ec4ab7
+2026-06-22T17:06:35.847339+00:00,signandencrypt,SoilSensor_001,1,REJECTED,replay_detected_sequence_1_not_greater_than_last_1,2215.517,804,0.0,29.848,key-v17-e8ec4ab7
+2026-06-22T17:06:35.888609+00:00,signandencrypt,SoilSensor_001,1,REJECTED,replay_detected_sequence_1_not_greater_than_last_1,2255.96,804,0.0,29.848,key-v17-e8ec4ab7

@@ -1,0 +1,15 @@
+EventTime,Mode,SensorId,SequenceNumber,Status,Reason,LatencyMs,MessageSizeBytes,CPUPercent,MemoryMB,KeyId
+2026-06-22T15:46:30.790964+00:00,none,SoilSensor_001,1,ACCEPTED,dt_state_updated,0.374,614,0.0,28.555,None
+2026-06-22T15:46:31.334790+00:00,none,SoilSensor_002,2,ACCEPTED,dt_state_updated,1.356,615,0.0,28.555,None
+2026-06-22T15:46:31.846229+00:00,none,SoilSensor_003,3,ACCEPTED,dt_state_updated,0.394,614,0.0,28.555,None
+2026-06-22T15:46:32.388049+00:00,none,SoilSensor_001,4,ACCEPTED,dt_state_updated,1.587,615,0.0,28.555,None
+2026-06-22T15:46:32.915805+00:00,none,SoilSensor_002,5,ACCEPTED,dt_state_updated,1.064,615,0.0,28.555,None
+2026-06-22T15:46:33.444258+00:00,none,SoilSensor_003,6,ACCEPTED,dt_state_updated,1.494,615,0.0,28.555,None
+2026-06-22T15:46:33.968892+00:00,none,SoilSensor_001,7,ACCEPTED,dt_state_updated,0.596,615,0.0,28.555,None
+2026-06-22T15:46:34.503314+00:00,none,SoilSensor_002,8,ACCEPTED,dt_state_updated,0.407,615,0.0,28.555,None
+2026-06-22T15:46:35.014019+00:00,none,SoilSensor_003,9,ACCEPTED,dt_state_updated,0.465,615,0.0,28.555,None
+2026-06-22T15:46:35.526081+00:00,none,SoilSensor_001,10,ACCEPTED,dt_state_updated,0.444,616,0.0,28.555,None
+2026-06-22T15:46:36.036899+00:00,none,SoilSensor_002,11,ACCEPTED,dt_state_updated,0.387,626,0.0,28.555,None
+2026-06-22T15:46:36.552031+00:00,none,SoilSensor_003,12,ACCEPTED,dt_state_updated,0.46,627,0.0,28.555,None
+2026-06-22T15:46:37.064584+00:00,none,SoilSensor_001,13,ACCEPTED,dt_state_updated,0.46,627,0.0,28.555,None
+2026-06-22T15:46:37.576478+00:00,none,SoilSensor_002,14,ACCEPTED,dt_state_updated,0.46,615,0.0,28.555,None

@@ -1,0 +1,9 @@
+EventTime,Mode,SensorId,SequenceNumber,Status,Reason,LatencyMs,MessageSizeBytes,CPUPercent,MemoryMB,KeyId
+2026-06-22T15:47:53.048332+00:00,sign,SoilSensor_001,1,ACCEPTED,dt_state_updated,16.309,726,0.0,29.105,key-v17-e8ec4ab7
+2026-06-22T15:47:53.567635+00:00,sign,SoilSensor_002,2,ACCEPTED,dt_state_updated,2.31,727,0.0,29.105,key-v17-e8ec4ab7
+2026-06-22T15:47:54.079319+00:00,sign,SoilSensor_003,3,ACCEPTED,dt_state_updated,1.956,726,0.0,29.105,key-v17-e8ec4ab7
+2026-06-22T15:47:54.618038+00:00,sign,SoilSensor_001,4,ACCEPTED,dt_state_updated,12.321,727,0.0,29.105,key-v17-e8ec4ab7
+2026-06-22T15:47:55.157548+00:00,sign,SoilSensor_002,5,ACCEPTED,dt_state_updated,7.75,727,0.0,29.105,key-v17-e8ec4ab7
+2026-06-22T15:47:55.688963+00:00,sign,SoilSensor_003,6,ACCEPTED,dt_state_updated,10.358,727,0.0,29.105,key-v17-e8ec4ab7
+2026-06-22T15:47:56.223383+00:00,sign,SoilSensor_001,7,ACCEPTED,dt_state_updated,9.73,727,0.0,29.105,key-v17-e8ec4ab7
+2026-06-22T15:47:56.744205+00:00,sign,SoilSensor_002,8,ACCEPTED,dt_state_updated,4.347,727,0.0,29.105,key-v17-e8ec4ab7

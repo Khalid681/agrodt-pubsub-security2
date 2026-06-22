@@ -1,0 +1,18 @@
+{
+  "accepted_messages": 1,
+  "rejected_messages": 2,
+  "sensors": {
+    "SoilSensor_001": {
+      "Alert": "NORMAL",
+      "LastKeyId": "key-v17-e8ec4ab7",
+      "LastSecurityMode": "signandencrypt",
+      "LastSequenceNumber": 1,
+      "LastTimestamp": "2026-06-11T14:19:01",
+      "SensorId": "SoilSensor_001",
+      "SoilMoisture": 59.51,
+      "SoilPH": 6.35,
+      "SoilTemperature": 24.2,
+      "UpdatedAt": "2026-06-22T17:06:33.628992+00:00"
+    }
+  }
+}

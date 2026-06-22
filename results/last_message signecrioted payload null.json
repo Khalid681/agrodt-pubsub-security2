@@ -1,0 +1,27 @@
+{
+  "EncryptedPayloadB64": "E81yfrKoWFMZpsqrZ99mysHCq9KacxnZLv/JPyvgYOD5Cf6HspsuKE0WsJu2FWSFnxrjN4LAqgkT5Z+9M8u2Lk/Y2LpFAYL8ecnGGSXeDLq7Uz1pkMniz03OrxysHPiIaFBWJnOTeiZWUeqG+Un6Z0lxSCcPfVG2ksVb+xAHCDE1Viwion/fLfDePwhU9HupHAwzOMEtcyKuEKq3Jn1zIcpB4FsXr6HOw29BPQMgwmNN4soVNzSHdnc=",
+  "Header": {
+    "KeyId": "key-v17-e8ec4ab7",
+    "MessageType": "DataSetMessage",
+    "PayloadFields": [
+      "SensorId",
+      "Timestamp",
+      "SequenceNumber",
+      "SoilMoisture",
+      "SoilTemperature",
+      "SoilPH"
+    ],
+    "PublisherId": "authorized_agrodt_soil_publisher",
+    "SecurityGroupId": "agrodt_soil_security_group",
+    "SecurityMode": "signandencrypt",
+    "TimestampSentNs": 1782144665815597926,
+    "UADPVersion": "PoC-UADP-1.0"
+  },
+  "Payload": null,
+  "Security": {
+    "Algorithm": "AES-256-GCM",
+    "KeyId": "key-v17-e8ec4ab7",
+    "Nonce": "SqyjolmhGTquCbnd",
+    "Signature": "AES-GCM-TAG-IN-CIPHERTEXT"
+  }
+}

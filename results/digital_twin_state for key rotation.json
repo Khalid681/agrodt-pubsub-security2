@@ -1,0 +1,42 @@
+{
+  "accepted_messages": 40,
+  "rejected_messages": 0,
+  "sensors": {
+    "SoilSensor_001": {
+      "Alert": "NORMAL",
+      "LastKeyId": "key-v19-993c5d89",
+      "LastSecurityMode": "signandencrypt",
+      "LastSequenceNumber": 40,
+      "LastTimestamp": "2026-06-11T14:19:40",
+      "SensorId": "SoilSensor_001",
+      "SoilMoisture": 48.35,
+      "SoilPH": 6.89,
+      "SoilTemperature": 31.43,
+      "UpdatedAt": "2026-06-22T17:15:37.114057+00:00"
+    },
+    "SoilSensor_002": {
+      "Alert": "NORMAL",
+      "LastKeyId": "key-v19-993c5d89",
+      "LastSecurityMode": "signandencrypt",
+      "LastSequenceNumber": 38,
+      "LastTimestamp": "2026-06-11T14:19:38",
+      "SensorId": "SoilSensor_002",
+      "SoilMoisture": 50.75,
+      "SoilPH": 6.8,
+      "SoilTemperature": 34.62,
+      "UpdatedAt": "2026-06-22T17:15:35.074211+00:00"
+    },
+    "SoilSensor_003": {
+      "Alert": "NORMAL",
+      "LastKeyId": "key-v19-993c5d89",
+      "LastSecurityMode": "signandencrypt",
+      "LastSequenceNumber": 39,
+      "LastTimestamp": "2026-06-11T14:19:39",
+      "SensorId": "SoilSensor_003",
+      "SoilMoisture": 57.55,
+      "SoilPH": 6.39,
+      "SoilTemperature": 24.0,
+      "UpdatedAt": "2026-06-22T17:15:36.094382+00:00"
+    }
+  }
+}

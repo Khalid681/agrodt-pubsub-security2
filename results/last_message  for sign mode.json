@@ -1,0 +1,34 @@
+{
+  "Header": {
+    "KeyId": "key-v17-e8ec4ab7",
+    "MessageType": "DataSetMessage",
+    "PayloadFields": [
+      "SensorId",
+      "Timestamp",
+      "SequenceNumber",
+      "SoilMoisture",
+      "SoilTemperature",
+      "SoilPH"
+    ],
+    "PublisherId": "authorized_agrodt_soil_publisher",
+    "SecurityGroupId": "agrodt_soil_security_group",
+    "SecurityMode": "sign",
+    "TimestampSentNs": 1782143276181530095,
+    "UADPVersion": "PoC-UADP-1.0"
+  },
+  "Payload": {
+    "Alert": "NORMAL",
+    "SensorId": "SoilSensor_001",
+    "SequenceNumber": 7,
+    "SoilMoisture": 62.57,
+    "SoilPH": 6.83,
+    "SoilTemperature": 24.05,
+    "Timestamp": "2026-06-11T14:19:07"
+  },
+  "Security": {
+    "Algorithm": "HMAC-SHA256",
+    "KeyId": "key-v17-e8ec4ab7",
+    "Nonce": null,
+    "Signature": "8a5563e8490fed1151e64745f57866cfc1adb254b1dcee9eafbae3fc92a154e2"
+  }
+}
